@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.08.00">
+    <object class="Event" id="{87cbd5f2-5140-4e8b-a8c4-0dec548d2876}"/>
+    <object class="MasterTrack" id="{696ad36f-f1ba-4c64-a2e8-b74ef1b0df13}"/>
+    <object class="MixerInput" id="{3ee26aca-a187-4a9e-9fc9-41a8e38ed984}"/>
+    <object class="EventAutomatableProperties" id="{00e8534c-5bb7-446a-9f0f-3b508c34901b}"/>
+    <object class="MarkerTrack" id="{52eb2c53-b746-4b74-8bee-bd6ad372ce3a}"/>
+    <object class="GroupTrack" id="{b9580bfb-3835-4fe4-a0f8-9fb3313a413e}"/>
+    <object class="Timeline" id="{5b6979e5-a7e0-4e89-8145-9be18cfca26b}">
+        <property name="uiLastRulerScaleRatio">
+            <value>0.02</value>
+        </property>
+    </object>
+    <object class="EventMixerMaster" id="{06cd5270-97de-4dc0-a7a8-9e9db28a1ad4}">
+        <relationship name="input">
+            <destination>{14a50cad-9455-4da2-9b68-616d1d631f53}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusEffectChain" id="{ba453532-7e6e-4807-9d3c-9b4c920e5b94}"/>
+    <object class="MixerBusPanner" id="{bc695553-0a17-4270-a710-63fb7ecebea4}"/>
+    <object class="SingleSound" id="{8a8310f1-4a5e-440a-ae4d-4b9f6501f4ac}"/>
+    <object class="EventMixerGroup" id="{14a50cad-9455-4da2-9b68-616d1d631f53}"/>
+    <object class="MixerBusEffectChain" id="{3f807042-c41f-4f6e-9f8a-677204baee1b}"/>
+    <object class="MixerBusPanner" id="{e8ae641e-794c-4cda-a238-9fd5ffacc2ab}"/>
+    <object class="MixerBusFader" id="{199420d7-792f-4641-917e-c63ca5c37b01}"/>
+    <object class="MixerBusEffectChain" id="{e1ef6a87-0a90-42c2-a5aa-73b2b96ae9c3}"/>
+    <object class="MixerBusPanner" id="{dc734b29-a2a2-44d1-b751-fb9e6560dc32}"/>
+    <object class="MixerBusFader" id="{18343e68-8db0-4671-a3a8-2bb99d7aa9ad}"/>
+    <object class="SpatialiserEffect" id="{49a29297-2ef7-4780-b3b0-a4cc96a252f7}"/>
+    <object class="MixerSend" id="{0ef687d6-ab36-43d4-b007-60c1487a6466}"/>
+    <object class="MixerBusFader" id="{0be88ec1-2f3d-4e0c-a352-d3538d8720dd}"/>
+</objects>
